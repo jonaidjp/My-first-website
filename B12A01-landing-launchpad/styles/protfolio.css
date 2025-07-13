@@ -7,6 +7,11 @@
 }
 
 
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 
 .headers{
@@ -89,4 +94,26 @@
 }
 .section-1{
                 margin: 40px 150px;
+}
+.container{ background-color: lightblue;
+            margin: 123PX 150PX ;
+            padding: 65px 0;
+            text-align: center;
+            border-radius: 8px;
+}
+.ctr{
+       color:#252432 ;
+;
+}
+.cgrid div strong{
+                   display: block;
+                   color:#4E47FF ;
+                   font-size: 35px;
+                   
+}
+.cgrid{
+       display: flex;
+       justify-content: center;
+       margin-top: 40px;
+       gap: 70px;
 }
