@@ -1,5 +1,3 @@
-
-
 .raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -30,17 +28,7 @@
        color: #4E47FF;
        font-weight: bold;
 }
-.btn{
-     display:flex;
-     padding: 10px 18px;
-      border: none;
-      background-color: #4E47FF;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      font-size: bold;
-    
-}
+
 
 .title{
        margin: 62px;
@@ -51,13 +39,7 @@
         margin-bottom: 20px ;
         color: #252432;
 }
-.main-btn{padding: 10px 18px;
-          border: none;
-          text-decoration: none;
-          color: white;
-          background-color: #4E47FF;
-          border-radius: 4px;        
-}
+
 .good{
        border: none;
 }
@@ -72,6 +54,7 @@
           gap: 33px;
           align-items: center;
           justify-content: space-between;
+          background-color: #FFFFFF;
 }
 .section-1 img {
                 max-width: 100%;
@@ -91,6 +74,8 @@
          padding:10px 18px;
          border-radius: 5px; 
          text-emphasis-position: 36px 12px;   
+}
+.button:hover{background-color: cadetblue;
 }
 .section-1{
                 margin: 40px 150px;
@@ -200,11 +185,76 @@
        padding: 10px 18px ; 
            
 }
+.btn2:hover{
+       background-color: cadetblue;
+}
+
+
 .focus img{
                      max-width: 100%;
                      margin: 35px;
                      border-radius: 15px;
 }
-p .btn2 {
-          gap: 20px;      
+
+.contact{
+          padding: 45px;
+          border-radius: 10px;
+          width: 70%; 
+          margin: 92.23px 150px;
+          color: #F2EDED;
+          padding: 40px 0;
+          
+
+}
+
+
+
+.container2{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           gap: 35px;
+}
+.c-title{
+        flex: 1 1 300px;
+        font-size: 2.6rem;
+        font-weight: bold;
+        color: #000000;
+}
+.c-form{
+        flex: 1 1 400px;
+}
+form{
+      display: flex; 
+      flex-direction: column; 
+      gap: 19px;
+}
+label{
+       font-size: 15px;
+       font-weight: 550 ;
+       color:#000000 ;
+}
+input textarea{
+                border: 2px solid #FFFFFF;
+                border-radius: 10px;
+                font-size: 15px;
+                outline: none;
+                padding: 10px 15px;
+                width: 50%;
+}
+input{
+       height: 50px;
+
+}
+
+button{
+       background-color: #4E47FF;
+       color: #F2EDED;
+       padding: 14px 22px;
+       border: none;
+       border-radius: 10px;
+       cursor: pointer;
+}
+button:hover{
+             background-color: cadetblue;
 }
